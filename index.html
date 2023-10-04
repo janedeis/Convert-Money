@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>DevClub - Convert Money</title>
+</head>
+
+<body>
+    <img class="logo" src="./assets/logo.gif" alt="logo-devCube-Convert-Money"/>
+    <main>
+        <label>
+            Convert <b>to</b>
+            <select>
+                <option>R$ Real Brasileiro </option>
+            </select>
+        </label>
+        <label>
+            Convert <b>for</b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+        </label>
+        <label>
+            Value
+            <input type="number" class="inputCurrency" placeholder=" R$ 10.00,00">
+        </label>
+        <button class="convert-button">Convert</button>
+        <section>
+            <div class="currency-box">
+                <img  src="./assets/Real.png" alt="logo-moeda-a-converter">
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+            <div>
+                <img class="arrow-img" src="./assets/Arrow.png" alt="seta">
+            </div>
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/Dolar.png" alt="logo-moeda-convertida">
+                <p class="currency" id="currency-name">Dólar americano</p>
+                <p class="currency-valor">US$0.00</p>
+            </div>
+
+        </section>
+    </main>
+</body>
+<script  src="script.js"></script>
+</html>

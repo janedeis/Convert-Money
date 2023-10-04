@@ -1,0 +1,124 @@
+/* font-family: 'Roboto', sans-serif; */
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Roboto' sans-serif;
+    outline:none;
+}
+
+body{
+    /* width:100vw;     */
+    /* height:100vh; */
+    background-color:#8A51FC;
+    /* border:1px solid rgb(43, 255, 0);    */
+      
+
+}
+
+.logo{
+    width:300px;
+    height:300px;
+    display:block;
+    margin:20px auto;
+    /* border:1px solid #00f; */
+}
+
+main{
+    
+    width:375px;
+    margin:0 auto 40px;
+    background-color:#F4F4F4;
+    border-radius:20px;
+    padding:44px; /*aplica aos 4 posiçoes*/
+    
+}
+
+button{
+    cursor:pointer;;
+}
+
+label{
+    font-weight:400;
+    font-size:14px;
+    color:#777;
+    line-height:18px;
+    /* display:block; */
+    margin-top:10px;
+    
+}
+
+select, input{
+    line-height:18px;
+    font-size:16px;;
+    font-weight:700;
+    background:#fff;
+    border:1px solid #BBBBBB;
+    border-radius:1px;
+    height:38px;
+    width:100%;
+    margin-bottom:24px;
+    appearance:none;
+    padding-left:14px;
+    color:#555;
+    cursor:pointer;
+}
+
+.inputCurrency::-webkit-inner-spin-button, 
+::-webkit-outer-spin-button{
+    appearance:none;
+}
+
+
+button{
+    background-color:#772FD3;
+    width:100%;
+    height:38px;
+    color:#fff;
+    font-weight:700;
+    font-size:18px;
+    border:none;
+}
+button:hover{
+    opacity:0.8;
+}
+button:active{
+    opacity:0.6;
+}
+
+section{
+    border:1px solid #772FD3;
+    border-radius:20px;
+    width:100%;
+    margin-top:36px;
+    padding:12px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.arrow-img{
+    padding:15px 0;
+}
+
+.currency-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.currency{
+    font-weight:400;
+    font-size:14px;
+    line-height:18px;
+    color:#777;
+}
+
+.currency-value, .currency-value-to-convert{
+    font-weight:700;
+    font-size:20px;
+    line-height:18px;
+    color:#555555;
+}
